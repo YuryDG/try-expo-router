@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "myexpotabsapp",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "my-expo-tabs-app",
+    "slug": "my-expo-tabs-app"    
+  }
+}
