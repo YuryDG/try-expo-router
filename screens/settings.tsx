@@ -1,16 +1,16 @@
 import { Text, SafeAreaView, Button } from 'react-native'
 import React from 'react'
-import { useRouter } from 'expo-router'
+import { useNavigation } from '@react-navigation/native'
 
 const Settings = () => {
-  const router = useRouter()
+  const navigation = useNavigation()
 
   return (
     <SafeAreaView>
       <Text>Settings</Text>
 
       <Button title="Go to Settings" onPress={() => {
-        router.push('/settings')
+        navigation.navigate('Screen2')
       }}/>
         
 
